@@ -1,0 +1,14 @@
+{
+  "hero": {
+    "title": "Biznesingizni raqamli dunyoda muvaffaqiyatga erishtiring",
+    "description": "Bizning vazifamiz – biznesingizni maksimal samaradorlikka erishishda qo‘llab-quvvatlash, vaqt va resurslarni tejashga ko‘maklashish, shuningdek, kundalik operatsiyalarni soddalashtirish uchun zamonaviy texnologiyalarni joriy qilish. Shuningdek, mijozlar bilan munosabatlarni boshqarish va chuqur tahlil uchun ilg‘or vositalarni taqdim etib, sizni har doim yetakchi darajada ushlab turishga yordam beramiz."
+  },
+  "features": {
+    "title": "Bizning xizmatlarimiz",
+    "description": "Bizning xizmatlarimiz sizning ehtiyojlaringizga moslashtirilgan zamonaviy va innovatsion yechimlarni taqdim etadi. Biz sifat, ishonchlilik va mijozlar ehtiyojini birinchi o‘ringa qo‘ygan holda, sizga eng yaxshi xizmatlarni taklif etamiz."
+  },
+  "help": {
+    "title": "Biz sizga yordam berishga tayyormiz!",
+    "description": "Bizning xizmatlarimiz haqida ko'proq ma'lumot olish uchun biz bilan bog'laning. Har qanday savol yoki yordam uchun bizga murojaat qilishingiz mumkin."
+  }
+}
