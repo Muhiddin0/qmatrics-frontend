@@ -1,56 +1,35 @@
-// @ts-nocheck
-
-import { FaInstagram } from "react-icons/fa6";
-import { SiInstatus } from "react-icons/si";
 import { FaCode } from "react-icons/fa6";
 import { MdDisplaySettings } from "react-icons/md";
-import { TbSettingsBolt } from "react-icons/tb";
-import { VscSymbolColor } from "react-icons/vsc";
+import { TbHeartHandshake, TbSettingsBolt } from "react-icons/tb";
 
 import { Feature } from "@/types/feature";
 
 const featuresData: Feature[] = [
   {
-    id: 1,
-    title: "CMM",
-    icon: FaInstagram,
-    paragraph:
-      "CMM (Customer Management Module) mijozlar bilan samarali aloqa o'rnatish va ularning ehtiyojlarini boshqarish uchun mo'ljallangan tizimdir.",
-  },
-  {
-    id: 2,
-    title: "Marketing",
-    icon: SiInstatus,
-    paragraph:
-      "Marketing xizmati orqali siz mahsulot va xizmatlaringizni targ'ib qilish, mijozlarni jalb qilish va savdo hajmini oshirishga yordam berasiz.",
-  },
-  {
     id: 3,
-    title: "Dasturiy ta'minot",
+    title: "IT mahsulotlarni yaratish ",
     icon: FaCode,
-    paragraph:
-      "Dasturiy ta'minot ishlab chiqish xizmati yordamida korxonangiz uchun maxsus yechimlarni yaratib, jarayonlarni avtomatlashtirishga erishasiz.",
+    paragraph: "Bizning xizmatlarimiz IT mahsulotlarni yaratishga qaratilgan.",
   },
   {
     id: 4,
-    title: "Tizimlashtirish",
+    title: "Biznes jarayonlarni optimallashtirish",
     icon: MdDisplaySettings,
     paragraph:
-      "Tizimlashtirish bu jarayonlarni optimallashtirish va samaradorlikni oshirish uchun ichki ishlarni yaxshi tashkil qilishni anglatadi.",
+      "Biznes jarayonlarini optimallashtirish orqali samaradorlikni oshiramiz.",
   },
   {
     id: 5,
     icon: TbSettingsBolt,
-    title: "Avtomatlashtirish",
+    title: "Biznes jarayonlarni avtomatlashtirishi ",
     paragraph:
-      "Avtomatlashtirish yordamida odatiy vazifalarni avtomatik ravishda bajarib, vaqt va resurslarni tejash imkoniyatini qo'lga kiritasiz.",
+      "Biznes jarayonlarini avtomatlashtirish xizmatlarini taqdim etamiz.",
   },
   {
-    id: 6,
-    icon: VscSymbolColor,
-    title: "Web/Grafic Design",
-    paragraph:
-      "Web va grafika dizayni sohasida biznesingizning vizual ko'rinishini mukammallashtirish uchun ijodiy echimlar taqdim etiladi.",
+    id: 5,
+    icon: TbHeartHandshake,
+    title: "SMT",
+    paragraph: "SMT xizmatlari orqali biznesingizni rivojlantiring.",
   },
 ];
 

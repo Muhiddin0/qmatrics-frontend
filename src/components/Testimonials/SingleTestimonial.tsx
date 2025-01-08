@@ -1,3 +1,4 @@
+import { Link } from "@/i18n/routing";
 import { Testimonial } from "@/types/testimonial";
 import Image from "next/image";
 const starIcon = (
@@ -34,6 +35,7 @@ const SingleTestimonial = ({ testimonial }: { testimonial: Testimonial }) => {
               {name}
             </h3>
             <p className="text-sm text-body-color">{designation}</p>
+            <Link href={"/"}>Batafsil</Link>
           </div>
         </div>
       </div>

@@ -1,46 +1,47 @@
+"use client";
+
 import { Testimonial } from "@/types/testimonial";
 import SectionTitle from "../Common/SectionTitle";
 import SingleTestimonial from "./SingleTestimonial";
+import { useTranslations } from "next-intl";
 
 const testimonialData: Testimonial[] = [
   {
-    id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-01.png",
-    star: 5,
-  },
-  {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "John Doe",
+    designation: "CEO @ExampleCorp",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Ushbu xizmat bizning biznesimizni yangi bosqichga olib chiqdi. Juda foydali va foydalanish oson.",
     image: "/images/testimonials/auth-02.png",
-    star: 5,
+    star: 4,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Jane Smith",
+    designation: "CTO @TechSolutions",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Men ushbu mahsulotni juda tavsiya qilaman. Bu bizning jamoamiz samaradorligini oshirdi.",
     image: "/images/testimonials/auth-03.png",
+    star: 5,
+  },
+  {
+    id: 4,
+    name: "Alice Johnson",
+    designation: "Marketing Manager @CreativeAgency",
+    content:
+      "Bu xizmat bizning marketing strategiyamizni sezilarli darajada yaxshiladi. Juda samarali va qulay.",
+    image: "/images/testimonials/auth-01.png",
     star: 5,
   },
 ];
 
 const Testimonials = () => {
+  const t = useTranslations("testimonials");
+
   return (
-    <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
+    <section className="relative z-10 bg-gray-light py-16 dark:bg-bg-color-dark md:py-20 lg:py-28">
       <div className="container">
-        <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
-          center
-        />
+        <SectionTitle title={t("title")} paragraph={t("description")} center />
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           {testimonialData.map((testimonial) => (

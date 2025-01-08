@@ -1,9 +1,13 @@
+"use client";
+
 import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
 
 import diplom from "@/assets/diploma.webp";
 import { AnimatedComponent } from "@/animations/ScrollAnimation";
 import { fadeInLeft, fadeInRight } from "@/animations/animations";
+import { useTranslations } from "next-intl";
+import { useParams } from "next/navigation";
 
 const checkIcon = (
   <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
@@ -12,6 +16,9 @@ const checkIcon = (
 );
 
 const AboutSectionOne = () => {
+  const { locale }: { locale: Lang } = useParams();
+  const t = useTranslations("about");
+
   const List = ({ text }) => (
     <AnimatedComponent variants={fadeInLeft}>
       <p className="mb-5 flex items-center text-lg font-medium text-body-color">
@@ -23,10 +30,12 @@ const AboutSectionOne = () => {
     </AnimatedComponent>
   );
 
-  const items = [
-    ["Premium quality", "Tailwind CSS", "Use for lifetime"],
-    ["Next.js", "Rich documentation", "Developer friendly"],
-  ];
+  const items = {
+    uz: [
+      ["Ishonch", "Sifat", "Innovatsiya"],
+      ["Muvaffaqiyat", "Xizmat", "Yordam"],
+    ],
+  };
 
   function GenerateIems(items: string[][] | string[]) {
     return items.map((item, index) =>
@@ -47,8 +56,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title={t("title")}
+                paragraph={t("description")}
                 mb="44px"
               />
 
@@ -57,7 +66,7 @@ const AboutSectionOne = () => {
                 data-wow-delay=".15s"
               >
                 <div className="mx-[-12px] flex flex-wrap">
-                  {GenerateIems(items)}
+                  {GenerateIems(items[locale])}
                 </div>
               </div>
             </div>
@@ -65,11 +74,7 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="relative mx-auto flex aspect-[25/24] max-w-[500px] items-center lg:mr-0">
                 <AnimatedComponent variants={fadeInRight}>
-                  <Image
-                    className="h-auto w-full"
-                    src={diplom}
-                    alt="Salom olam"
-                  />
+                  <Image className="h-auto w-full" src={diplom} alt="" />
                 </AnimatedComponent>
               </div>
             </div>

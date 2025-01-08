@@ -1,11 +1,14 @@
 "use client";
-import Image from "next/image";
+
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { useParams, usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 import LanguageSwitcher from "../Common/lang-switcher/lang-switcher";
+import { siteConfig } from "@/config/site";
+import { useTranslations } from "next-intl";
+import Logo from "../logo";
 
 const Header = () => {
   // Navbar toggle
@@ -13,6 +16,8 @@ const Header = () => {
   const navbarToggleHandler = () => {
     setNavbarOpen(!navbarOpen);
   };
+
+  const { locale }: { locale: Lang } = useParams();
 
   // Sticky Navbar
   const [sticky, setSticky] = useState(false);
@@ -39,6 +44,8 @@ const Header = () => {
 
   const usePathName = usePathname();
 
+  const t = useTranslations("header");
+
   return (
     <>
       <header
@@ -51,27 +58,7 @@ const Header = () => {
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
             <div className="w-60 max-w-full px-4 xl:mr-12">
-              <Link
-                href="/"
-                className={`header-logo block w-full ${
-                  sticky ? "py-5 lg:py-2" : "py-8"
-                } `}
-              >
-                <Image
-                  src="/images/logo/logo-2.svg"
-                  alt="logo"
-                  width={140}
-                  height={30}
-                  className="w-full dark:hidden"
-                />
-                <Image
-                  src="/images/logo/logo.svg"
-                  alt="logo"
-                  width={140}
-                  height={30}
-                  className="hidden w-full dark:block"
-                />
-              </Link>
+              <Logo />
             </div>
             <div className="flex w-full items-center justify-between px-4">
               <div>
@@ -106,7 +93,7 @@ const Header = () => {
                   }`}
                 >
                   <ul className="block lg:flex lg:space-x-12">
-                    {menuData.map((menuItem, index) => (
+                    {menuData[locale].map((menuItem, index) => (
                       <li key={index} className="group relative">
                         {menuItem.path ? (
                           <Link
@@ -161,6 +148,13 @@ const Header = () => {
               </div>
               <div className="flex items-center justify-end pr-16 lg:pr-0">
                 <div className="flex items-center gap-3">
+                  <Link
+                    className="hidden md:block"
+                    href={siteConfig.contact.phone.url}
+                  >
+                    {siteConfig.contact.phone.label}
+                  </Link>
+
                   <ThemeToggler />
                   <LanguageSwitcher />
                 </div>

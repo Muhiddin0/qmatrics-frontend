@@ -31,10 +31,20 @@ const SingleBrand = ({ brand }: { brand: Brand }) => {
         href={href}
         target="_blank"
         rel="nofollow noreferrer"
-        className="relative h-10 w-full opacity-70 transition hover:opacity-100 dark:opacity-60 dark:hover:opacity-100"
+        className="relative  h-20 w-full opacity-70 transition hover:opacity-100 dark:opacity-60 dark:hover:opacity-100"
       >
-        <Image src={imageLight} alt={name} fill className="hidden dark:block" />
-        <Image src={image} alt={name} fill className="block dark:hidden" />
+        <Image
+          src={imageLight}
+          alt={name}
+          fill
+          className="hidden object-contain dark:block"
+        />
+        <Image
+          src={image}
+          alt={name}
+          fill
+          className="block object-contain dark:hidden"
+        />
       </a>
     </div>
   );

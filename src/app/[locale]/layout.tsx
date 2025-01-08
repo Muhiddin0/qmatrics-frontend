@@ -41,6 +41,8 @@ export default async function RootLayout({
           <Providers>
             <Header />
             {children}
+            <script src="https://app.embed.im/snow.js" defer></script>
+            <script src="https://app.embed.im/spark.js" defer></script>
             <Footer />
           </Providers>{" "}
         </NextIntlClientProvider>

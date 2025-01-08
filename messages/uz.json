@@ -1,14 +1,52 @@
 {
   "hero": {
     "title": "Biznesingizni raqamli dunyoda muvaffaqiyatga erishtiring",
-    "description": "Bizning vazifamiz – biznesingizni maksimal samaradorlikka erishishda qo‘llab-quvvatlash, vaqt va resurslarni tejashga ko‘maklashish, shuningdek, kundalik operatsiyalarni soddalashtirish uchun zamonaviy texnologiyalarni joriy qilish. Shuningdek, mijozlar bilan munosabatlarni boshqarish va chuqur tahlil uchun ilg‘or vositalarni taqdim etib, sizni har doim yetakchi darajada ushlab turishga yordam beramiz."
+    "description": "Bizning vazifamiz – biznesingizni maksimal samaradorlikka erishishda qo‘llab-quvvatlash, vaqt va resurslarni tejashga ko‘maklashish, shuningdek, kundalik operatsiyalarni soddalashtirish uchun zamonaviy texnologiyalarni joriy qilish. Shuningdek, mijozlar bilan munosabatlarni boshqarish va chuqur tahlil uchun ilg‘or vositalarni taqdim etib, sizni har doim yetakchi darajada ushlab turishga yordam beramiz.",
+    "contact": "Bog'lanish",
+    "email": "Email"
+  },
+  "about": {
+    "title": "Biz haqimizda",
+    "description": "Bizning kompaniyamiz, Qmatrix, IT va avtomatlashtirish sohasida innovatsion yechimlarni taklif etuvchi yetakchi tashkilotlardan biridir. Bizning maqsadimiz mijozlarimizning biznes jarayonlarini optimallashtirish, samaradorlikni oshirish va zamonaviy texnologiyalar orqali muvaffaqiyatga erishishlarida yordam berishdir."
   },
   "features": {
     "title": "Bizning xizmatlarimiz",
     "description": "Bizning xizmatlarimiz sizning ehtiyojlaringizga moslashtirilgan zamonaviy va innovatsion yechimlarni taqdim etadi. Biz sifat, ishonchlilik va mijozlar ehtiyojini birinchi o‘ringa qo‘ygan holda, sizga eng yaxshi xizmatlarni taklif etamiz."
   },
+  "testimonials": {
+    "title": "Bizning mijozlarimiz nima deyishadi",
+    "description": "Bizning mijozlarimiz bizning xizmatlarimiz va mahsulotlarimiz haqida nima deyishishadi? Siz ham ularning fikrlarini o'qing."
+  },
   "help": {
     "title": "Biz sizga yordam berishga tayyormiz!",
     "description": "Bizning xizmatlarimiz haqida ko'proq ma'lumot olish uchun biz bilan bog'laning. Har qanday savol yoki yordam uchun bizga murojaat qilishingiz mumkin."
+  },
+  "common": {
+    "back": "Ortga"
+  },
+  "Contact": {
+    "contactUs": "Shikoyat va taklifaringizni bo'lishing",
+    "contactUsDesc": "Bizning qo'llab-quvvatlash jamoasi elektron pochta orqali asap sizga qaytarib oladi.",
+    "yourName": "Ism va Familya",
+    "yourEmail": "Email yoki Telefon raqami",
+    "message": "Xabar",
+    "sendMessage": "Yuborish",
+    "messageSent": "Xabar yuborildi",
+    "messageDontSent": "Xabarni yuborishda xatolik yuz berdi",
+    "enterYourName": "To'liq ism va familyangizni kiriting",
+    "enterYourEmail": "Aloqa uchun ma'lumotlaringizni qoldiring",
+    "enterYourMessage": "Xabar..."
+  },
+  "footer": {
+    "description": "Biznesingizni raqamli dunyoda muvaffaqiyatga erishtiring",
+    "links": "Foydali havolalar",
+    "blogs": "Blog",
+    "services": "Xizmatlar",
+    "about": "Biz haqimizda",
+    "legal": "Shartlar",
+    "terms": "Foydalanish shartlari",
+    "privacy": "Maxfiylik siyosati",
+    "contact": "Yordam va murojaat",
+    "poweredby": "Powered by"
   }
 }

@@ -1,6 +1,7 @@
 export const siteConfig = {
-  title: "Next.js",
-  description: "Next.js, the React framework",
+  title: "Rakat sistems",
+  description:
+    "Bizning xizmatlarimiz haqida ko'proq ma'lumot olish uchun biz bilan bog'laning. Har qanday savol yoki yordam uchun bizga murojaat qilishingiz mumkin.",
   url: "https://nextjs.org",
   contact: {
     phone: {
