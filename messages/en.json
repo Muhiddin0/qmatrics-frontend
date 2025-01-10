@@ -1,0 +1,52 @@
+{
+    "hero": {
+        "title": "Achieve Success in the Digital World for Your Business",
+        "description": "Our mission is to support your business in achieving maximum efficiency, helping save time and resources, and implementing modern technologies to simplify daily operations. We also provide advanced tools for customer relationship management and deep analytics to keep you always ahead.",
+        "contact": "Contact",
+        "email": "Email"
+    },
+    "about": {
+        "title": "About Us",
+        "description": "Our company, Qmatrix, is one of the leading organizations offering innovative solutions in IT and automation. Our goal is to help our clients optimize their business processes, increase efficiency, and achieve success through modern technologies."
+    },
+    "features": {
+        "title": "Our Services",
+        "description": "Our services offer modern and innovative solutions tailored to your needs. With a focus on quality, reliability, and customer needs, we offer you the best services."
+    },
+    "testimonials": {
+        "title": "What Our Clients Say",
+        "description": "What do our clients say about our services and products? Read their feedback here."
+    },
+    "help": {
+        "title": "We are ready to help you!",
+        "description": "Contact us to learn more about our services. You can reach out to us for any questions or assistance."
+    },
+    "common": {
+        "back": "Back"
+    },
+    "Contact": {
+        "contactUs": "Share Your Complaints and Suggestions",
+        "contactUsDesc": "Our support team will get back to you as soon as possible via email.",
+        "yourName": "Full Name",
+        "yourEmail": "Email or Phone Number",
+        "message": "Message",
+        "sendMessage": "Send Message",
+        "messageSent": "Message Sent",
+        "messageDontSent": "Error in Sending Message",
+        "enterYourName": "Enter your full name",
+        "enterYourEmail": "Leave your contact information",
+        "enterYourMessage": "Message..."
+    },
+    "footer": {
+        "description": "Achieve Success in the Digital World for Your Business",
+        "links": "Useful Links",
+        "blogs": "Blog",
+        "services": "Services",
+        "about": "About Us",
+        "legal": "Terms",
+        "terms": "Terms of Use",
+        "privacy": "Privacy Policy",
+        "contact": "Support and Contact",
+        "poweredby": "Powered by"
+    }
+}

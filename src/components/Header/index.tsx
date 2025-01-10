@@ -17,7 +17,8 @@ const Header = () => {
     setNavbarOpen(!navbarOpen);
   };
 
-  const { locale }: { locale: Lang } = useParams();
+  const { locale }: { locale: Lang } = useParams(); // get locale from params
+  const pathname = usePathname(); // get current path
 
   // Sticky Navbar
   const [sticky, setSticky] = useState(false);
@@ -30,7 +31,7 @@ const Header = () => {
   };
   useEffect(() => {
     window.addEventListener("scroll", handleStickyNavbar);
-  });
+  }, []);
 
   // submenu handler
   const [openIndex, setOpenIndex] = useState(-1);
@@ -41,8 +42,6 @@ const Header = () => {
       setOpenIndex(index);
     }
   };
-
-  const usePathName = usePathname();
 
   const t = useTranslations("header");
 
@@ -97,9 +96,9 @@ const Header = () => {
                       <li key={index} className="group relative">
                         {menuItem.path ? (
                           <Link
-                            href={menuItem.path}
+                            href={`/${locale}${menuItem.path}`} // Add locale to path
                             className={`flex py-2 text-base lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${
-                              usePathName === menuItem.path
+                              pathname === `/${locale}${menuItem.path}`
                                 ? "text-primary dark:text-white"
                                 : "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
                             }`}
@@ -131,7 +130,7 @@ const Header = () => {
                             >
                               {menuItem.submenu.map((submenuItem, index) => (
                                 <Link
-                                  href={submenuItem.path}
+                                  href={`/${locale}${submenuItem.path}`} // Add locale to submenu path
                                   key={index}
                                   className="block rounded py-2.5 text-sm text-dark hover:text-primary dark:text-white/70 dark:hover:text-white lg:px-3"
                                 >

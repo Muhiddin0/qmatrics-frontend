@@ -35,8 +35,15 @@ const AboutSectionOne = () => {
       ["Ishonch", "Sifat", "Innovatsiya"],
       ["Muvaffaqiyat", "Xizmat", "Yordam"],
     ],
+    en: [
+      ["Tust", "Quality", "Innovation"],
+      ["Success", "Service", "Support"],
+    ],
+    ru: [
+      ["Доверие", "Качество", "Инновации"],
+      ["Успех", "Сервис", "Поддержка"],
+    ],
   };
-
   function GenerateIems(items: string[][] | string[]) {
     return items.map((item, index) =>
       typeof item === "string" ? (
