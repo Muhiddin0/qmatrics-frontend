@@ -5,9 +5,9 @@ export const siteConfig = {
   url: "https://nextjs.org",
   contact: {
     phone: {
-      label: "+998 99 999 99 99",
-      value: "+998999999999",
-      url: "tel:+998999999999",
+      label: "+998903990696",
+      value: "+998903990696",
+      url: "tel:+998903990696",
     },
     gmail: {
       label: "Email",
