@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useParams, usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
@@ -9,6 +8,7 @@ import LanguageSwitcher from "../Common/lang-switcher/lang-switcher";
 import { siteConfig } from "@/config/site";
 import { useTranslations } from "next-intl";
 import Logo from "../logo";
+import { Link } from "@/i18n/routing";
 
 const Header = () => {
   // Navbar toggle
@@ -129,7 +129,7 @@ const Header = () => {
                                 openIndex === index ? "block" : "hidden"
                               }`}
                             >
-                              {menuItem.submenu.map((submenuItem, index) => (
+                              {/* {menuItem.submenu.map((submenuItem, index) => (
                                 <Link
                                   href={submenuItem.path}
                                   key={index}
@@ -137,7 +137,7 @@ const Header = () => {
                                 >
                                   {submenuItem.title}
                                 </Link>
-                              ))}
+                              ))} */}
                             </div>
                           </>
                         )}

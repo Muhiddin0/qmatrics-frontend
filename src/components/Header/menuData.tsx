@@ -23,15 +23,8 @@ const menuData: Menu = {
     {
       id: 4,
       title: "Services",
+      path: "/services",
       newTab: false,
-      submenu: [
-        {
-          id: 48,
-          title: "Error Page",
-          path: "/error",
-          newTab: false,
-        },
-      ],
     },
   ],
   uz: [
@@ -56,16 +49,10 @@ const menuData: Menu = {
     {
       id: 4,
       title: "Xizmatlar",
+      path: "/xizmatlar",
       newTab: false,
-      submenu: [
-        {
-          id: 48,
-          title: "Xato sahifa",
-          path: "/error",
-          newTab: false,
-        },
-      ],
     },
+  
   ],
   ru: [
     {
@@ -89,15 +76,8 @@ const menuData: Menu = {
     {
       id: 4,
       title: "Услуги",
+      path: "/услуги",
       newTab: false,
-      submenu: [
-        {
-          id: 48,
-          title: "Страница ошибки",
-          path: "/error",
-          newTab: false,
-        },
-      ],
     },
   ],
 };
