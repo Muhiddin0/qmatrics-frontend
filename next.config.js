@@ -5,7 +5,15 @@ const withNextIntl = createNextIntlPlugin();
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
+<<<<<<< HEAD
     domains: ["localhost", "127.0.0.1", "rakat-solutions-website-backend.6cpoqp.easypanel.host"],
+=======
+    domains: [
+      "localhost",
+      "127.0.0.1",
+      "rakat-solutions-website-backend.6cpoqp.easypanel.host",
+    ],
+>>>>>>> 91223643519fa0860e59cc8745401fca18231d66
     remotePatterns: [
       {
         protocol: "https",
