@@ -57,7 +57,6 @@ const Video = () => {
         start={true}
         isOpen={isOpen}
         videoId="ijH2KPK6Twg"
-        // https://youtube.com/shorts/ijH2KPK6Twg?si=WBnye1nfnQYeDa_8
         onClose={() => setOpen(false)}
       />
 
