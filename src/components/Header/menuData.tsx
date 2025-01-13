@@ -11,19 +11,19 @@ const menuData: Menu = {
     {
       id: 2,
       title: "About",
-      path: "/about",
+      path: "#about",
       newTab: false,
     },
     {
       id: 3,
       title: "Blog",
-      path: "/blog",
+      path: "#blog",
       newTab: false,
     },
     {
       id: 4,
       title: "Services",
-      path: "/services",
+      path: "#services",
       newTab: false,
     },
   ],
@@ -37,19 +37,19 @@ const menuData: Menu = {
     {
       id: 2,
       title: "Biz haqimizda",
-      path: "/about",
+      path: "#about",
       newTab: false,
     },
     {
       id: 3,
       title: "Blog",
-      path: "/blog",
+      path: "#blog",
       newTab: false,
     },
     {
       id: 4,
       title: "Xizmatlar",
-      path: "/xizmatlar",
+      path: "#xizmatlar",
       newTab: false,
     },
   
@@ -64,19 +64,19 @@ const menuData: Menu = {
     {
       id: 2,
       title: "О нас",
-      path: "/about",
+      path: "#about",
       newTab: false,
     },
     {
       id: 3,
       title: "Блог",
-      path: "/blog",
+      path: "#blog",
       newTab: false,
     },
     {
       id: 4,
       title: "Услуги",
-      path: "/услуги",
+      path: "#услуги",
       newTab: false,
     },
   ],
