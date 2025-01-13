@@ -1,52 +1,74 @@
 {
-    "hero": {
-        "title": "Achieve Success in the Digital World for Your Business",
-        "description": "Our mission is to support your business in achieving maximum efficiency, helping save time and resources, and implementing modern technologies to simplify daily operations. We also provide advanced tools for customer relationship management and deep analytics to keep you always ahead.",
-        "contact": "Contact",
-        "email": "Email"
-    },
-    "about": {
-        "title": "About Us",
-        "description": "Our company, Qmatrix, is one of the leading organizations offering innovative solutions in IT and automation. Our goal is to help our clients optimize their business processes, increase efficiency, and achieve success through modern technologies."
-    },
-    "features": {
-        "title": "Our Services",
-        "description": "Our services offer modern and innovative solutions tailored to your needs. With a focus on quality, reliability, and customer needs, we offer you the best services."
-    },
-    "testimonials": {
-        "title": "What Our Clients Say",
-        "description": "What do our clients say about our services and products? Read their feedback here."
-    },
-    "help": {
-        "title": "We are ready to help you!",
-        "description": "Contact us to learn more about our services. You can reach out to us for any questions or assistance."
-    },
-    "common": {
-        "back": "Back"
-    },
-    "Contact": {
-        "contactUs": "Share Your Complaints and Suggestions",
-        "contactUsDesc": "Our support team will get back to you as soon as possible via email.",
-        "yourName": "Full Name",
-        "yourEmail": "Email or Phone Number",
-        "message": "Message",
-        "sendMessage": "Send Message",
-        "messageSent": "Message Sent",
-        "messageDontSent": "Error in Sending Message",
-        "enterYourName": "Enter your full name",
-        "enterYourEmail": "Leave your contact information",
-        "enterYourMessage": "Message..."
-    },
-    "footer": {
-        "description": "Achieve Success in the Digital World for Your Business",
-        "links": "Useful Links",
-        "blogs": "Blog",
-        "services": "Services",
-        "about": "About Us",
-        "legal": "Terms",
-        "terms": "Terms of Use",
-        "privacy": "Privacy Policy",
-        "contact": "Support and Contact",
-        "poweredby": "Powered by"
-    }
+  "shared": {
+    "home": "Home"
+  },
+  "hero": {
+    "title": "Achieve Success in the Digital World for Your Business",
+    "description": "Our mission is to support your business in achieving maximum efficiency, helping save time and resources, and implementing modern technologies to simplify daily operations. We also provide advanced tools for customer relationship management and deep analytics to keep you always ahead.",
+    "contact": "Contact",
+    "email": "Email"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Our company, Rakat systems, is one of the leading organizations offering innovative solutions in IT and automation. Our goal is to help our clients optimize their business processes, increase efficiency, and achieve success through modern technologies.",
+    "priority": [
+      {
+        "title": "Innovative IT Solutions",
+        "description": "Rakat Solutions provides cutting-edge IT services, ensuring                   scalable, secure, and efficient systems tailored for every                   business need."
+      },
+      {
+        "title": "Expert Support Team",
+        "description": "Our dedicated professionals deliver premier support, ensuring                   your projects run smoothly and meet industry standards."
+      },
+      {
+        "title": "Next-Gen Technologies",
+        "description": "Rakat Solutions stays ahead of the curve, integrating the                   latest technologies like Next.js for modern, high-performance                   web applications."
+      }
+    ]
+  },
+  "features": {
+    "title": "Our Services",
+    "description": "Our services offer modern and innovative solutions tailored to your needs. With a focus on quality, reliability, and customer needs, we offer you the best services."
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "description": "What do our clients say about our services and products? Read their feedback here."
+  },
+  "help": {
+    "title": "We are ready to help you!",
+    "description": "Contact us to learn more about our services. You can reach out to us for any questions or assistance."
+  },
+  "common": {
+    "back": "Back"
+  },
+  "Contact": {
+    "contactUs": "Share Your Complaints and Suggestions",
+    "contactUsDesc": "Our support team will get back to you as soon as possible via email.",
+    "yourName": "Full Name",
+    "yourEmail": "Email or Phone Number",
+    "message": "Message",
+    "sendMessage": "Send Message",
+    "messageSent": "Message Sent",
+    "messageDontSent": "Error in Sending Message",
+    "enterYourName": "Enter your full name",
+    "enterYourEmail": "Leave your contact information",
+    "enterYourMessage": "Message..."
+  },
+  "footer": {
+    "description": "Achieve Success in the Digital World for Your Business",
+    "links": "Useful Links",
+    "blogs": "Blog",
+    "services": "Services",
+    "about": "About Us",
+    "legal": "Terms",
+    "terms": "Terms of Use",
+    "privacy": "Privacy Policy",
+    "contact": "Support and Contact",
+    "poweredby": "Powered by"
+  },
+  "Blog": {
+    "blog": "Blog",
+    "description": "Rakat Solutions provides the best solutions in IT services across Uzbekistan. Our services meet your needs with a wide selection offered by leading companies and affordable prices. In our catalog, you will find everything you need for IT services throughout Uzbekistan.",
+    "noData": "Articles are not available yet."
+  }
 }

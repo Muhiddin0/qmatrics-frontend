@@ -1,4 +1,7 @@
 {
+  "shared": {
+    "home": "Bosh sahifa"
+  },
   "hero": {
     "title": "Biznesingizni raqamli dunyoda muvaffaqiyatga erishtiring",
     "description": "Bizning vazifamiz – biznesingizni maksimal samaradorlikka erishishda qo‘llab-quvvatlash, vaqt va resurslarni tejashga ko‘maklashish, shuningdek, kundalik operatsiyalarni soddalashtirish uchun zamonaviy texnologiyalarni joriy qilish. Shuningdek, mijozlar bilan munosabatlarni boshqarish va chuqur tahlil uchun ilg‘or vositalarni taqdim etib, sizni har doim yetakchi darajada ushlab turishga yordam beramiz.",
@@ -7,7 +10,21 @@
   },
   "about": {
     "title": "Biz haqimizda",
-    "description": "Bizning kompaniyamiz, Qmatrix, IT va avtomatlashtirish sohasida innovatsion yechimlarni taklif etuvchi yetakchi tashkilotlardan biridir. Bizning maqsadimiz mijozlarimizning biznes jarayonlarini optimallashtirish, samaradorlikni oshirish va zamonaviy texnologiyalar orqali muvaffaqiyatga erishishlarida yordam berishdir."
+    "description": "Bizning kompaniyamiz, Rakat systems, IT va avtomatlashtirish sohasida innovatsion yechimlarni taklif etuvchi yetakchi tashkilotlardan biridir. Bizning maqsadimiz mijozlarimizning biznes jarayonlarini optimallashtirish, samaradorlikni oshirish va zamonaviy texnologiyalar orqali muvaffaqiyatga erishishlarida yordam berishdir.",
+    "priority": [
+      {
+        "title": "Innovatsion IT yechimlari",
+        "description": "Rakat Solutions zamonaviy IT xizmatlarini taqdim etadi, har bir biznes uchun mos, xavfsiz va samarali tizimlarni ta'minlaydi."
+      },
+      {
+        "title": "Mutaxassis yordam jamoasi",
+        "description": "Bizning tajribali mutaxassislarimiz mukammal yordam ko'rsatadi, loyihalaringiz muammosiz ishlashini ta'minlaydi."
+      },
+      {
+        "title": "Kelajak texnologiyalari",
+        "description": "Rakat Solutions zamonaviy texnologiyalarni, jumladan Next.js kabi yuqori samarali veb ilovalarni qo'llaydi."
+      }
+    ]
   },
   "features": {
     "title": "Bizning xizmatlarimiz",
@@ -48,5 +65,10 @@
     "privacy": "Maxfiylik siyosati",
     "contact": "Yordam va murojaat",
     "poweredby": "Powered by"
+  },
+  "Blog": {
+    "description": "Rakat Solutions kompaniyasi O'zbekiston bo'yicha IT-xizmatlar sohasidagi eng maqbul yechimni taqdim etadi. Bizning xizmatlarimiz arzon narxlar va yetakchi kompaniyalar tomonidan taqdim etilgan keng tanlov bilan sizning ehtiyojlaringizni qondiradi. O'zbekiston bo'ylab IT-xizmatlar bo'yicha bizning katalogimizda sizga kerakli hamma narsa mavjud.",
+    "blog": "Maqolalar",
+    "noData": "Maqolalar hali mavjud emas."
   }
 }

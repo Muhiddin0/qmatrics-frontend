@@ -6,7 +6,6 @@ import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 import LanguageSwitcher from "../Common/lang-switcher/lang-switcher";
 import { getSeoConfig } from "@/config/site";
-import { useTranslations } from "next-intl";
 import Logo from "../logo";
 import { Link } from "@/i18n/routing";
 
@@ -44,7 +43,6 @@ const Header = () => {
     }
   };
 
-  const t = useTranslations("header");
 
   return (
     <>
@@ -97,7 +95,7 @@ const Header = () => {
                       <li key={index} className="group relative">
                         {menuItem.path ? (
                           <Link
-                            href={`${menuItem.path}`}  // Add locale to path
+                            href={`${menuItem.path}`} // Add locale to path
                             className={`flex py-2 text-base lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${
                               pathname === `/${menuItem.path}`
                                 ? "text-primary dark:text-white"

@@ -37,25 +37,15 @@ const AboutSectionOne = () => {
     ],
   };
 
-  // function GenerateIems(items: string[][] | string[]) {
-  //   return items.map((item, index) =>
-  //     typeof item === "string" ? (
-  //       <List text={item} key={index} />
-  //     ) : (
-  //       <div key={index} className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-  //         {GenerateIems(item)}
-  //       </div>
-  //     ),
-  //   );
-  // }
-
-  function GenerateIems(items: string[][] | string[] | undefined | null): JSX.Element[] | null {
+  function GenerateIems(
+    items: string[][] | string[] | undefined | null,
+  ): JSX.Element[] | null {
     // 1. Tekshirish: items undefined yoki null emasligini aniqlash
     if (!items || !Array.isArray(items)) {
       console.error("Items is undefined, null, or not an array:", items);
       return null; // Bo'sh yoki noto'g'ri qiymatni qaytarish
     }
-  
+
     // 2. map orqali qayta ishlash
     return items.map((item, index) =>
       typeof item === "string" ? (
@@ -66,7 +56,7 @@ const AboutSectionOne = () => {
             {GenerateIems(item)} {/* Rekursiv chaqiruv */}
           </div>
         )
-      )
+      ),
     );
   }
 
