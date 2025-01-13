@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useParams, usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
@@ -9,6 +8,7 @@ import LanguageSwitcher from "../Common/lang-switcher/lang-switcher";
 import { getSeoConfig } from "@/config/site";
 import { useTranslations } from "next-intl";
 import Logo from "../logo";
+import { Link } from "@/i18n/routing";
 
 const Header = () => {
   // Navbar toggle
@@ -97,9 +97,9 @@ const Header = () => {
                       <li key={index} className="group relative">
                         {menuItem.path ? (
                           <Link
-                            href={`/${locale}${menuItem.path}`} // Add locale to path
+                            href={`${menuItem.path}`}  // Add locale to path
                             className={`flex py-2 text-base lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${
-                              pathname === `/${locale}${menuItem.path}`
+                              pathname === `/${menuItem.path}`
                                 ? "text-primary dark:text-white"
                                 : "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
                             }`}
@@ -129,7 +129,7 @@ const Header = () => {
                                 openIndex === index ? "block" : "hidden"
                               }`}
                             >
-                              {menuItem.submenu.map((submenuItem, index) => (
+                              {/* {menuItem.submenu.map((submenuItem, index) => (
                                 <Link
                                   href={`/${locale}${submenuItem.path}`} // Add locale to submenu path
                                   key={index}
@@ -137,7 +137,7 @@ const Header = () => {
                                 >
                                   {submenuItem.title}
                                 </Link>
-                              ))}
+                              ))} */}
                             </div>
                           </>
                         )}

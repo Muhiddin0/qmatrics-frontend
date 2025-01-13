@@ -46,6 +46,7 @@ const Hero = () => {
             <AnimatedComponent variants={fadeInUp}>
               <p className="mb-8 leading-relaxed">{t("description")}</p>
             </AnimatedComponent>
+            
             <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
               <AnimatedComponent
                 variants={fadeInLeft}

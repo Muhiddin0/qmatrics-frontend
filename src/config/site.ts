@@ -6,8 +6,8 @@ export const siteConfig = {
     url: "https://rakatsolutions.uz",
     contact: {
       phone: {
-        label: "+998 99 999 99 99",
-        value: "+998999999999",
+        label: "+998 90 399 06 96",
+        value: "+998903990696",
         url: "tel:+998999999999",
       },
       gmail: {
@@ -24,8 +24,8 @@ export const siteConfig = {
     url: "https://rakatsolutions.uz",
     contact: {
       phone: {
-        label: "+998 99 999 99 99",
-        value: "+998999999999",
+        label: "+998 90 399 06 96",
+        value: "+998903990696",
         url: "tel:+998999999999",
       },
       gmail: {
@@ -42,8 +42,8 @@ export const siteConfig = {
     url: "https://rakatsolutions.uz",
     contact: {
       phone: {
-        label: "+998 99 999 99 99",
-        value: "+998999999999",
+        label: "+998 90 399 06 96",
+        value: "+998903990696",
         url: "tel:+998999999999",
       },
       gmail: {
