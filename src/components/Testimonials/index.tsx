@@ -39,8 +39,8 @@ const Testimonials = () => {
   const t = useTranslations("testimonials");
 
   return (
-    <section className="relative z-10 bg-gray-light py-16 dark:bg-bg-color-dark md:py-20 lg:py-28">
-      <div className="container">
+    <section className="">
+      {/* <div className="container">
         <SectionTitle title={t("title")} paragraph={t("description")} center />
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
@@ -176,7 +176,7 @@ const Testimonials = () => {
             </linearGradient>
           </defs>
         </svg>
-      </div>
+      </div> */}
     </section>
   );
 };
