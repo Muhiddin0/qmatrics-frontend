@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 import LanguageSwitcher from "../Common/lang-switcher/lang-switcher";
-import { siteConfig } from "@/config/site";
+import { getSeoConfig } from "@/config/site";
 import { useTranslations } from "next-intl";
 import Logo from "../logo";
 
@@ -19,6 +19,7 @@ const Header = () => {
 
   const { locale }: { locale: Lang } = useParams(); // get locale from params
   const pathname = usePathname(); // get current path
+  const seo = getSeoConfig(locale);
 
   // Sticky Navbar
   const [sticky, setSticky] = useState(false);
@@ -149,9 +150,9 @@ const Header = () => {
                 <div className="flex items-center gap-3">
                   <Link
                     className="hidden md:block"
-                    href={siteConfig.contact.phone.url}
+                    href={seo.contact.phone.url}
                   >
-                    {siteConfig.contact.phone.label}
+                    {seo.contact.phone.label}
                   </Link>
 
                   <ThemeToggler />
