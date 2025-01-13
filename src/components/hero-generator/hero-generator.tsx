@@ -15,7 +15,7 @@ function HeroGenerator({ title, description, poster }: Props) {
           <h1 className="title-font mb-4 text-3xl font-medium text-gray-900 dark:text-white sm:text-4xl">
             {title}
           </h1>
-          <p className="mb-8 leading-relaxed">{description}</p>
+          <p className="mb-8 leading-relaxed text-slate-300">{description}</p>
         </div>
         <div className="w-5/6 md:w-1/2 lg:w-full lg:max-w-lg">
           <Image
